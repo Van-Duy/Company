@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.table>tbody>tr>td{
+    vertical-align: middle;
+}
+img.zvn-thumb {
+    max-width: 100%;
+}
+
+.page-header.zvn-page-header {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.zvn-page-header-title h3 {
+    margin: 0;
+}
+
+.new-delete{
+    margin-left: 14px;
+    height: 100px;
+    line-height: 88px;
+}
+
+.add-attr{
+    display: block;
+    margin: 30px auto;
+}
+
+
+
+.new-delete:hover{
+    background-color: lightcoral;
+}
+
+.zvn-page-header-breadcrumb {float: right;line-height: 35px;}
+
+.zvn-page-header-title {
+    display: inline-block;
+}
+
+.zvn-breadcrumb-title {
+    list-style: none;
+    margin-bottom: 0px;
+}
+.zvn-breadcrumb-item{
+    float: left;
+}
+.zvn-breadcrumb-item>a:hover{
+    color: #0e90d2;
+}
+.zvn-breadcrumb-item:first-child:before{
+    content: "";
+}
+.zvn-breadcrumb-item:before{
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #636c72;
+    content: "/";
+}
+.zvn-alert>strong {
+    font-size: 20px;
+}
+
+.zvn-alert {
+    color: #ffffff;
+}
+
+.zvn-alert button> span {
+    color: #281f1f !important;
+}
+
+.zvn-box-slt-filter select {
+    width: auto;
+    display: inline-block;
+}
+
+.btn-icon {
+    border-radius: 50%;
+}
+.zvn-pagination{
+    margin: auto;
+    float: right;
+}
+.main_menu_side {
+    margin-top: 20px;
+}
+
+span.highlight{
+    background: yellow;
+    font-weight: bold;
+}
+
+.radio-inline {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.znv-up-down{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin: 5px;
+}
+
+.page-heading {
+    margin: 20px 0;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Segoe UI Light", "Arial", serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+ 
+#my-dropzone .message {
+    font-family: "Segoe UI Light", "Arial", serif;
+    font-weight: 600;
+    color: #0087F7;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+}
+ 
+.dropzone {
+    border: 2px dashed #0087F7;
+    background: white;
+    border-radius: 5px;
+    min-height: 300px;
+    padding: 90px 0;
+    vertical-align: baseline;
+}
+
+
+
+.jss1607 {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 8px 20px;
+    overflow: hidden;
+    position: relative;
+    font-size: 1rem;
+    background: #ffffff;
+    box-shadow: rgb(216, 216, 216) 0px 0px 15px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    line-height: 1.75;
+    white-space: nowrap;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.jss1607 > span {
+    z-index: 10;
+    position: absolute;
+}
+
+.jss1607 > span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    animation: jss1610 1s infinite;
+    background-image: linear-gradient(to right, transparent, #03a9f4 50%);
+ }
+
+ .jss1607 > span:nth-child(2) {
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    animation: jss1611 1s 0.45s infinite;
+    background-image: linear-gradient(to bottom, transparent, #03a9f4 50%);
+}
+
+.jss1607 > span:nth-child(3) {
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    height: 3px;
+    animation : jss1612 1s infinite;
+    background-image: linear-gradient(to left, transparent, #03a9f4 50%);
+}
+
+.jss1607 > span:nth-child(4) {
+    left: 0;
+    width: 3px;
+    bottom: 0;
+    height: 100%;
+    animation: jss1613 1s 0.454s infinite;
+    background-image: linear-gradient(to top, transparent, #03a9f4 50%);
+   
+}
+
+.changeCode{
+    position: absolute;
+    right: -50px;
+    border-radius: 18%;
+}
+.changeCode:hover{
+    background-color: lightgreen;
+}
+
+@keyframes jss1610{
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes jss1611{
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+@keyframes jss1612{
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes jss1613{
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
